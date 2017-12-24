@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+body {
+	
+	background-color: yellow;
+	font-size: larger;
+	font-style: oblique;
+	font-weight: bolder;
+	position: relative;
+}
+
+fieldset {
+	background-color: lime;
+	
+}
+label {
+	margin-left: 400px;
+	font-size: larger;
+	font-style: oblique;
+	font-weight: bolder;
+	position: relative;
+	text-align: center;
+}
+
+
+input,select {
+	padding-bottom:10px; 
+	width: 200px;
+}
+
+
