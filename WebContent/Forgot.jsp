@@ -4,12 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Forget password</title>
 </head>
-<body>
-<form action="checkuid.do" method="post" >
-UserID<input type="text" name="userid" />
-<input type="submit" value="Reset" >
+<body bgcolor="#E6E6FA">
+    <form action="checkuid.do" method="post" ><center>
+            <h1><b>RESET PASSWORD</b></h1>
+UserID :<input type="text" name="userid" />
+            <input type="submit" value="Reset" ></center>
 </form>
 </body>
 </html>

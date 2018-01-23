@@ -6,13 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Login Page</title>
 </head>
-<body>
-<h1>User Login Page ${msg}</h1>
+<body bgcolor="#E6E6FA">
+    <h1><b>User Login Page ${msg}</b></h1>
  
 <form action="login.do" method="post">
-<pre>
-UserId:<input type="text" name="userid" id="userid" />
-Password:<input type="password" name="password" id="password" /> 
+    <pre>
+UserId   :<input type="text" name="userid" id="userid" />
+Password :<input type="password" name="password" id="password" /> 
 <input type="submit" value="Login" />
 <a href="Forgot.jsp">Forgot Password</a>
 </pre>

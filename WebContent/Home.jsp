@@ -6,23 +6,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Home Page</title>
 <style type="text/css">
-h1{
-color:cyan;
-font-style:oblique;
-font-family: monospace;
-position: absolute;
-
-}
 </style>
 </head>
-<body bgcolor="grapes">
-<p align="right">Hi, ${dto.username}</p>  <br />
+<body bgcolor="#E6E6FA">
+    <h1><b><p align="center">Hi, ${dto.username}</p></b></h1>
 <br>
-
-<a href="ChangePwd.jsp">Change Password</a> <br />
+<b>
+<a href="ChangePwd.jsp">Change Password</a>
 <br>
-<a href="UpdateDetails.jsp">Update Details</a> <br>
-<a href="Login.jsp">Logout</a> <br>
+<a href="UpdateDetails.jsp">Update Details</a>
+<br>
+<a href="Login.jsp">Logout</a> <br></b>
 <h1 >${msg}</h1> <br />
 </body>
 </html>
