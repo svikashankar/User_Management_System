@@ -23,7 +23,7 @@
 <tr><td><label>Mobile No.</label>            </td><td><input type="text" name="mobile" id="mobile" /></td></tr>
 <tr><td><label>Security Question</label>     </td><td><select name="question" id="question" ><option>Favorite Player</option><option>Favorite Food</option></select></td></tr>
 <tr><td><label>Security Answer</label>       </td><td><input type="text" name="answer" id="answer" /></td></tr>
-<tr><td><label>Role</td><td></label>                   <select name="role"><option value="0">Admin</option><option value="1">User</option><option value="2">Vendor</option></select></td></tr>
+<tr><td><label>Role</label>                  </td><td><select name="role"><option value="0">Admin</option><option value="1">User</option><option value="2">Vendor</option></select></td></tr>
 </pre> </tbody>
     </table><center>
     
