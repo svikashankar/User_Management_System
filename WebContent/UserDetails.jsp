@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>UPADTE</title>
 </head>
-<body>
+<body bgcolor="#E6E6FA">
+    <h1> <B> UPDATE </b></H1>
 <h1>${id}</h1>
 </body>
 </html>

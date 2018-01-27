@@ -6,8 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Update</title>
 </head>
-<body>
-<p align="right" >${dto.username}</p>
+<body bgcolor="#E6E6FA">
+    <center>   <h1> <b> UPDATE </b> </h1> </center>
+    <h1><b><p align="center">${dto.username}</p></b></h1>
 <form action="update.do" method="post">
 <pre>
 UserId: <input type="text" name="userid" value="${dto.userid}" readonly="readonly" id="userid"/>

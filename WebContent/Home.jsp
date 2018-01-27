@@ -9,6 +9,7 @@
 </style>
 </head>
 <body bgcolor="#E6E6FA">
+     
     <h1><b><p align="center">Hi, ${dto.username}</p></b></h1>
 <br>
 <b>
