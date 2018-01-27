@@ -13,21 +13,26 @@
 <h1>${successMessage}</h1>
 <center><h1>WELCOME TO Jspiders</h1> </center>
 <pre>
-<label>UserName<sup>*</sup></label>  :<input type="text" name="username" id="username" />
-<label>Email<sup>*</sup></label>     :<input type="text" name="email" id="email" />
-<label>UserID<sup>*</sup></label>    :<input type="text" name="userid" id="userid" />
-<label>Password<sup>*</sup></label>  :<input type="password" name="password" id="password" />
-<label>Confirm Password<sup>*</sup></label>:<input type="password" name="confirmpassword" id="cpassword" />
-<label>Mobile No.</label>            :<input type="text" name="mobile" id="mobile" />
-<label>Security Question</label>     :<select name="question" id="question" ><option>Favorite Player</option><option>Favorite Food</option></select>
-<label>Security Answer</label>       :<input type="text" name="answer" id="answer" />
-<label>Role</label>                  : <select name="role"><option value="0">Admin</option><option value="1">User</option><option value="2">Vendor</option></select>
-</pre><center>
+<table>
+        <tbody>
+<tr><td><label>UserName<sup>*</sup></label>  </td><td><input type="text" name="username" id="username" /></td></tr>
+<tr><td><label>Email<sup>*</sup></label>     </td><td><input type="text" name="email" id="email" /></td></tr>
+<tr><td><label>UserID<sup>*</sup></label>    </td><td><input type="text" name="userid" id="userid" /></td></tr>
+<tr><td><label>Password<sup>*</sup></label>  </td><td><input type="password" name="password" id="password" /></td></tr>
+<tr><td><label>Confirm Password<sup>*</sup></label></td><td><input type="password" name="confirmpassword" id="cpassword" /></td></tr>
+<tr><td><label>Mobile No.</label>            </td><td><input type="text" name="mobile" id="mobile" /></td></tr>
+<tr><td><label>Security Question</label>     </td><td><select name="question" id="question" ><option>Favorite Player</option><option>Favorite Food</option></select></td></tr>
+<tr><td><label>Security Answer</label>       </td><td><input type="text" name="answer" id="answer" /></td></tr>
+<tr><td><label>Role</label>                  </td><td> <select name="role"><option value="0">Admin</option><option value="1">User</option><option value="2">Vendor</option></select></td></tr>
+</pre> </tbody>
+    </table><center>
+    
 <input type="submit" value="Register" />
 <input type="reset" value="Clear" />
 </center>
 <br/><center>
     <a href="Login.jsp">Login</a></center>
+  
 </form>
 </body>
 </html>
