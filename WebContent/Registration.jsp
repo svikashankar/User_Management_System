@@ -5,13 +5,32 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>UMS</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<style >
+	.content{
+		display: none;
+	}
+	.preload{
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%,-50%);
+	}
+</style>
+
+</head>
+<!––     PRELODER  ––> 
+<body>
+	<div id="preloader"></div>
+</div>
+<!––     website ––> 
 <link href="Style.css" rel="stylesheet"></link>
 <script type="text/javascript" src="Registration.js"></script>
-</head>
-<body>
 <form onsubmit="return validate()" action="register.do" method="post" >
 <h1>${successMessage}</h1>
-<center><h1>WELCOME TO Jspiders</h1> </center>
+<center><h1>WELCOME TO <img style="width:600px;height:200px;" src="jspider.png" /></h1> </center>
 <pre>
 <table>
         <tbody>
@@ -34,5 +53,16 @@
     <a href="Login.jsp">Login</a></center>
   
 </form>
+<script >
+jQuery(document).ready(function ($) {
+    $(window).load(function () {
+        setTimeout(function(){
+            $('#preloader').fadeOut('slow', function () {
+            });
+        },3000);
+
+    });  
+});
+</script>
 </body>
 </html>

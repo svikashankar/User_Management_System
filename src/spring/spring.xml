@@ -16,8 +16,8 @@
 		<!-- SMTP Settings -->
 		<property name="host" value="smtp.gmail.com"></property>
 		<property name="port" value="587"></property>
-		<property name="username" value="change to your mail ID"></property>
-		<property name="password" value="YOUR PASSWORD"></property>
+		<property name="username" value="******change to your mail ID**"></property>
+		<property name="password" value="****YOUR PASSWORD***"></property>
 
 		<property name="JavaMailProperties">
 			<!-- additional properties specific to JavaMail -->
