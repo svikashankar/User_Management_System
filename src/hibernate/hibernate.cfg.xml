@@ -5,10 +5,10 @@
 <hibernate-configuration>
 	<session-factory>
 	
-		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:postgresql://ec2-107-21-126-193.compute-1.amazonaws.com:5432/d2qit84td97b7n?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory</property>		
-		<property name="hibernate.connection.username">nypjozlhqnfacf</property>
-		<property name="hibernate.connection.password">be4b3721ba4c61bc6322d7ffdea0e83c3bbb13649ee3c95e714aec3cad22dc1c</property>
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://ec2-107-21-98-165.compute-1.amazonaws.com:5432/dabg9fta5o02te</property>		
+		<property name="hibernate.connection.username">fvixmgmcdczkrn</property>
+		<property name="hibernate.connection.password">92a110acf416eaeca782d68924bcdd6f1a51099e978a618df956c44656eca68c</property>
 		<property name="show_sql">true</property>
 		<property name="hbm2ddl.auto">update</property>
 		<mapping class="com.navi.mvcApp.dto.register.RegisterDTO" />
